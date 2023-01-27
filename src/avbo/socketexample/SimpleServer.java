@@ -51,6 +51,14 @@ public class SimpleServer {
 			}
 		}
 	}
+	
+	public int getPort() {
+		return port;
+	}
+
+	protected ServerSocket getServer() {
+		return server;
+	}
 
 	public static void main(String args[]) {
 		// Crea un oggetto di tipo SimpleServer in ascolto
